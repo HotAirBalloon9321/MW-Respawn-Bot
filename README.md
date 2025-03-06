@@ -31,4 +31,4 @@ This will ensure your application uses the correct environment variables for dev
 - Ensure that `.env.development` is included in your `.gitignore` file to prevent accidental commits.
 - If you encounter any issues, verify that the file is correctly named and formatted.
 - You may need to restart your application after modifying environment variables.
-
+- Bot will TP to you every 5 seconds after it spawns
