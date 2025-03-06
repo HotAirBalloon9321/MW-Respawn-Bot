@@ -16,5 +16,5 @@ module.exports = () => {
 	teleportInterval = setInterval(() => {
 		minecraftBot.chat(`/tp ${process.env.TP_TO_USERNAME}`);
 		logInfo(`⏳ Teleporting to ${process.env.TP_TO_USERNAME}`);
-	}, 5000); // 5 seconds in milliseconds
+	}, 10000); // 5 seconds in milliseconds
 }
