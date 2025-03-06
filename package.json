@@ -1,0 +1,29 @@
+{
+	"name": "minewind-alert-bot",
+	"version": "1.0.0",
+	"main": "./main.js",
+	"scripts": {
+		"deployDev": "cross-env NODE_ENV=development nodemon .",
+		"deployProd": "pm2 start ecosystem.config.js --env production"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"axios": "^1.8.1",
+		"discord.js": "^14.14.1",
+		"dotenv": "^16.4.7",
+		"mineflayer": "^4.0.0",
+		"mysql2": "^3.12.0",
+		"os-utils": "^0.0.14",
+		"winston": "^3.17.0",
+		"winston-daily-rotate-file": "^5.0.0"
+	},
+	"devDependencies": {
+		"cross-env": "^7.0.3",
+		"eslint": "^9.20.0",
+		"nodemon": "^3.1.9",
+		"pm2": "^5.4.3"
+	}
+}
