@@ -18,6 +18,6 @@ module.exports = () => {
 	teleportInterval = setInterval(() => {
 		minecraftBot.chat(process.env.TP_LOCATION);
 		minecraftBot.chat(`/msg ${process.env.MINECRAFT_PLAYER_USERNAME} I am at ${minecraftBot.entity.position}`);
-		logInfo(`⏳ Teleporting to ${process.env.TP_TO_USERNAME}`);
+		logInfo(`⏳ Teleporting to ${process.env.TP_LOCATION}`);
 	}, 20000); // 20 seconds in milliseconds
 }
