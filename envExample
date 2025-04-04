@@ -1,3 +1,4 @@
-TP_TO_USERNAME = 
+TP_LOCATION = "/spawn" # NOTE: during FFA and TDM, /SPAWN is a random radius teleport, while this is troublesome, it still puts your alts closer to the center, making it easier for you to kill or blackhole
+MINECRAFT_PLAYER_USERNAME = "" # Your Username
 MINECRAFT_BOT_USENAME =
 MINECRAFT_SERVER_URL =

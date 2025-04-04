@@ -9,9 +9,10 @@ To set up the environment variables for development, follow these steps:
 In the root of your project, create a new file named `.env.development` and add the following environment variables:
 
 ```
-TP_TO_USERNAME=
-MINECRAFT_BOT_USERNAME=
-MINECRAFT_SERVER_URL=
+TP_LOCATION = "/spawn" # NOTE: during FFA and TDM, /SPAWN is a random radius teleport, while this is troublesome, it still puts your alts closer to the center, making it easier for you to kill or blackhole
+MINECRAFT_PLAYER_USERNAME = "" # Your Username
+MINECRAFT_BOT_USENAME =
+MINECRAFT_SERVER_URL =
 ```
 
 Replace the empty values with the appropriate configuration details.
@@ -31,4 +32,4 @@ This will ensure your application uses the correct environment variables for dev
 - Ensure that `.env.development` is included in your `.gitignore` file to prevent accidental commits.
 - If you encounter any issues, verify that the file is correctly named and formatted.
 - You may need to restart your application after modifying environment variables.
-- Bot will TP to you every 5 seconds after it spawns
+- Bot will TP to you every 20 seconds after it spawns
